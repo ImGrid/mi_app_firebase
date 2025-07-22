@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "493018025",
+    "project_id": "miappfirebase-8dfab",
+    "storage_bucket": "miappfirebase-8dfab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493018025:android:c7474553a1db0fb017c2b8",
+        "android_client_info": {
+          "package_name": "com.example.miapp_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBunVXSS5kav1AEl1eMkEGurqSKJCvFCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
