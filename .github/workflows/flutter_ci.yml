@@ -40,9 +40,14 @@ jobs:
       - name: Analizar código Dart
         run: flutter analyze
 
-      # 7. Ejecutar tests unitarios
+      # 7. Ejecutar tests unitarios (si existen)
       - name: Ejecutar tests
-        run: flutter test
+        run: |
+          if [ -d "test" ] && [ "$(ls -A test)" ]; then
+            flutter test
+          else
+            echo "No hay tests para ejecutar"
+          fi
 
       # 8. Verificar que la app compile para Android
       - name: Build APK
